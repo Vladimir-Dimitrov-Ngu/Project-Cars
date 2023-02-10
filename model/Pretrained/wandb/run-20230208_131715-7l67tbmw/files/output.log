@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "C:\Users\user\Project-Cars\model\Pretrained\train.py", line 76, in <module>
-    main()
-  File "C:\Users\user\Project-Cars\model\Pretrained\train.py", line 25, in main
-    train_dataset = StanfordCars('StanfordCars/train', split='train', transform=transform, download=False)
-  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\torchvision\datasets\stanford_cars.py", line 63, in __init__
-    raise RuntimeError("Dataset not found. You can use download=True to download it")
-RuntimeError: Dataset not found. You can use download=True to download it
