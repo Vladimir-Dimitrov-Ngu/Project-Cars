@@ -9,5 +9,6 @@ config = dict(
     precision = 'mixed', # ['full', 'half', 'mixed']
     loss_scaling = True,
     optimizer = 'SGD',
-    time = True
+    time = True,
+    group = 'resnet',
 )

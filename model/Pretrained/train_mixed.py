@@ -11,7 +11,7 @@ from timer import start_timer, end_timer_and_print
 import json
 
 # api = wandb.Api()
-wandb.init(config=config, project="Car-project", name=config['name'])
+wandb.init(config=config, project="Car-project", name=config['name'], group = config['group'])
 
 def compute_accuracy(preds, targets):
     result = (targets == preds).float().mean()
